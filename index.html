@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Navbar</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<nav>
+			<a href="#"><img src="./logo.png" alt="logo" /></a>
+			<p>Navbar</p>
+			<ul>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+		<main>
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+			<p>a</p>
+			<br /><br />
+		</main>
+	</body>
+	<script>
+		let prevScrollPos = window.pageYOffset;
+		window.onscroll = () => {
+			let currentScrollPos = window.pageYOffset;
+			prevScrollPos < currentScrollPos
+				? document.querySelector("nav").classList.add("hide")
+				: document.querySelector("nav").classList.remove("hide");
+			prevScrollPos = currentScrollPos;
+		};
+	</script>
+</html>
